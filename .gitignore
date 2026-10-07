@@ -1,0 +1,49 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+*.pyc
+*.pyo
+
+# Python environment/config
+.env
+.env.*
+!.env.example
+
+# Databases / generated local data
+*.db
+*.sqlite
+*.sqlite3
+
+# ML model/cache files
+*.onnx
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Flutter
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/build/
+frontend/.packages
+frontend/.pub-cache/
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/android/.gradle/
+frontend/android/local.properties
+
+# Flutter generated files
+frontend/**/Generated.xcconfig
+frontend/**/flutter_export_environment.sh
+
+# IDE
+.idea/
+*.iml
